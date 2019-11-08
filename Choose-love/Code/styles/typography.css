@@ -1,0 +1,46 @@
+.wrapper {
+  color: black;
+}
+.main-font {
+  font-family: montserrat;
+  font-size: 1em;
+  color: black;
+}
+
+/* 100 */
+@font-face {
+  font-family: montserrat;
+  src: url(../../montserrat.woff/Montserrat-Thin.otf);
+  src: url(../../montserrat.woff/Montserrat-ExtraLight.otf);
+  src: url(../../montserrat.woff/Montserrat-Light.otf);
+  src: url(../../montserrat.woff/Montserrat-Regular.otf);
+  src: url(../../montserrat.woff/Montserrat-Medium.otf);
+  src: url(../../montserrat.woff/Montserrat-SemiBold.otf);
+  src: url(../../montserrat.woff/Montserrat-Bold.otf);
+  src: url(../../montserrat.woff/Montserrat-ExtraBold.otf);
+  src: url(../../montserrat.woff/Montserrat-Black.otf);
+  src: url(../../montserrat.woff/Montserrat-Regular.otf);
+
+  font-weight: 100;
+}
+/* 200 */
+@font-face {
+  font-family: montserrat;
+  src: url(../../montserrat.woff/Montserrat-ExtraLight.otf);
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 1.6em;
+  font-weight: normal;
+  color: #262626e6;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.main-title__supportive-text {
+  font-size: 1.2em;
+}

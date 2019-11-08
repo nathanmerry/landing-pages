@@ -1,0 +1,14 @@
+.horizontal-guttering {
+  grid-area: 1 / span 13;
+  height: 109px;
+}
+
+.hero__guttering--top {
+  width: 100px;
+  height: 84px;
+}
+
+.hero__guttering--bottom {
+  grid-column: 1 / span 13;
+  height: 80px;
+}

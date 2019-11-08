@@ -1,0 +1,78 @@
+img.logo--standard-size {
+  width: 160px;
+  text-align: center;
+}
+.image-small {
+  width: 120px;
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.image-large {
+  width: 400px;
+}
+
+.collage > img {
+  position: absolute;
+}
+
+.collage__image1 {
+  min-width: 200px;
+  max-width: 360px;
+  top: 50px;
+  left: 90px;
+  border: 1px solid black;
+}
+.collage__image2 {
+  width: 300px;
+  top: 360px;
+  left: 0px;
+  border: 2px solid whitesmoke;
+}
+.collage__image3 {
+  width: 270px;
+  top: 280px;
+  left: 250px;
+  border: 2px solid whitesmoke;
+}
+.collage__image4 {
+  width: 150px;
+  top: 250px;
+  left: 420px;
+  border: 2px solid whitesmoke;
+}
+.collage__image5 {
+  width: 230px;
+  top: 420px;
+  left: 340px;
+  border: 2px solid whitesmoke;
+}
+.collage__image6 {
+  width: 230px;
+  top: 430px;
+  left: 340px;
+  border: 2px solid whitesmoke;
+  z-index: 3;
+}
+.collage__image7 {
+  width: 230px;
+  top: 520px;
+  left: 60px;
+  border: 2px solid whitesmoke;
+  /* z-index: 2; */
+}
+.collage__image8 {
+  width: 350px;
+  top: 580px;
+  left: 230px;
+  border: 2px solid whitesmoke;
+  z-index: 1;
+}
+
+@media screen and (max-width: 425px) {
+  .image-large {
+    width: 250px;
+  }
+}

@@ -1,0 +1,36 @@
+:root{
+  --main-btn-color: #F5A623;
+  --main-btn-text__color: white;
+  --alt-btn-color: #f0faff;
+  --alt-btn-text_color: #3362ac;
+}
+.btn--main-theme{
+  background:var(--main-btn-color);
+  border: none;
+  border-radius: 15px;
+  color: var(--main-btn-text__color);
+}
+.btn--secondary-theme{
+  background: var(--alt-btn-color);
+  color: var(--alt-btn-text_color);
+  border: none;
+  border-radius: 15px;
+}
+.btn--large {
+  font-size: 20px;
+  padding: 15px 55px;
+  margin: 15px 0 15px 0;
+  border-radius: 50px;
+  letter-spacing: 1.5px;
+}
+.btn--small{
+  font-size: 0.9em;
+  padding: 9px 14px;
+  letter-spacing: 1.5px;
+}
+.nav__btn-left{
+  margin:0 10px 0 0;
+}
+.button--main-nav-icon{
+  display: none;
+}
